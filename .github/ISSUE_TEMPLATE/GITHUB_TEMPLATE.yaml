@@ -3,7 +3,6 @@ name: '❔ GitHub Requests'
 about: 'Request an update to permissions/management/settings on the opensearch-project GitHub organization or its repositories.'
 title: '[GitHub Request]'
 labels: 'github-request'
-assignees: ''
 body:
   - type: markdown
     attributes:
