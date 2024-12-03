@@ -32,7 +32,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      description: 'Provide reasons for your request. For example, if you request to add a new maintainer to a repository, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
+      description: 'Provide reasons for your request. For example, if you request to add a new maintainer to a repository, confirm that you have followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide, and provide the required materials and votes.'
       label: 'Additional information to support your request'
     validations:
       required: true
