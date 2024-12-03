@@ -27,32 +27,26 @@ body:
   - type: textarea
     attributes:
       description: 'Details of the request'
-      label: 'Provide the details of the request'
-      value: |
-        _Describe the actions you are requesting (e.g., GitHub Actions in the`<repository> take too long to allocate runners)._
-        _If this is about a repository, please contact the corresponding maintainers before raising the issue._
+      label: 'Describe the actions you are requesting (e.g., GitHub Actions in the`<repository> take too long to allocate runners). If this is about a repository, please contact the corresponding maintainers before raising the issue.'
     validations:
       required: true
   - type: textarea
     attributes:
       description: 'Additional information to support your request'
-      label: 'Provide reasons for your request'
-      value: |
-        _Provide reasons for your request._
-        _For example, if you request to add a new maintainer, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide._
+      label: 'Provide reasons for your request. For example, if you request to add a new maintainer, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
     validations:
       required: true
   - type: textarea
     attributes:
       description: 'When does this request need to be completed?'
-      label: 'Provide the timeline of your request'
-      value: |
-        _Requests typically require 7-10 business days to process. Specify your request timeline and whether or not it is an urgent request._
+      label: 'Provide the timeline of your request. Requests typically require 7-10 business days to process. Specify your request timeline and whether or not it is an urgent request.'
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     attributes:
+      description: 'Notes'
+      label: '(DO NOT DELETE)'
       value: |
-        _Track the progress of your request here: https://github.com/orgs/opensearch-project/projects/208/views/33_  
-        _Member of @opensearch-project/admin will take a look at the request soon._
-        _Thanks!_
+        Track the progress of your request here: https://github.com/orgs/opensearch-project/projects/208/views/33
+        Member of @opensearch-project/admin will take a look at the request soon.
+        Thanks!
