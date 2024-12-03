@@ -10,8 +10,8 @@ body:
         Thanks for taking the time to submit GitHub Requset! Please note that the estimate time for the request to be resolved is 7-10 days from the time of the request.
   - type: dropdown
     attributes:
-      description: 'What is the type of request?'
-      label: 'Provide request type'
+      description: 'Provide request type'
+      label: 'What is the type of request?'
       multiple: false
       options:
         - # Empty first option to force selection
@@ -32,7 +32,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      description: 'Provide reasons for your request. For example, if you request to add a new maintainer, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
+      description: 'Provide reasons for your request. For example, if you request to add a new maintainer to a repository, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
       label: 'Additional information to support your request'
     validations:
       required: true
