@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit GitHub Requset! Please note that the estimate time for the request to be resolved is 7-10 days from the time of the request.
-   - type: dropdown
+  - type: dropdown
     attributes:
       description: 'What is the type of request?'
       multiple: false
