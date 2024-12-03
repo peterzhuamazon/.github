@@ -26,20 +26,20 @@ body:
       required: true
   - type: textarea
     attributes:
-      description: 'Details of the request'
-      label: 'Describe the actions you are requesting (e.g., GitHub Actions in the`<repository> take too long to allocate runners). If this is about a repository, please contact the corresponding maintainers before raising the issue.'
+      description: 'Describe the actions you are requesting (e.g., GitHub Actions in the <repository> take too long to allocate runners). If this is about a repository, please contact the corresponding maintainers before raising the issue.'
+      label: 'Details of the request'
     validations:
       required: true
   - type: textarea
     attributes:
-      description: 'Additional information to support your request'
-      label: 'Provide reasons for your request. For example, if you request to add a new maintainer, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
+      description: 'Provide reasons for your request. For example, if you request to add a new maintainer, confirm you followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide.'
+      label: 'Additional information to support your request'
     validations:
       required: true
   - type: textarea
     attributes:
-      description: 'When does this request need to be completed?'
-      label: 'Provide the timeline of your request. Requests typically require 7-10 business days to process. Specify your request timeline and whether or not it is an urgent request.'
+      description: 'Provide the timeline of your request. Requests typically require 7-10 business days to process. Specify your request timeline and whether or not it is an urgent request.'
+      label: 'When does this request need to be completed?'
     validations:
       required: true
   - type: textarea
