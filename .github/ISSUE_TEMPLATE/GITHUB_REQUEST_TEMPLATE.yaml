@@ -26,6 +26,12 @@ body:
       required: true
   - type: textarea
     attributes:
+      description: 'If yes, describe your repo type. For GitHub new repo specifically, please note we are still in the progress of publishing https://github.com/opensearch-project/.github/issues/296 and https://github.com/opensearch-project/.github/issues/304. For other, please confirm if you already have a GitHub repo in opensearch-project GitHub Org. Thanks.'
+      label: 'Are you trying to create a new repository (GitHub, or 3rd parties such as DockerHub, NPM, PyPI)'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       description: 'Describe the actions you are requesting (e.g., GitHub Actions in the <repository> take too long to allocate runners). If this is about a repository, please contact the corresponding maintainers before raising the issue.'
       label: 'Details of the request'
     validations:
