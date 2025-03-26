@@ -1,0 +1,69 @@
+---
+name: '📦Repository Request'
+description: 'Request a new repository with its publication target(s) in the OpenSearch Project.'
+title: '[Repository Request]'
+labels: ['repository-request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit this Repository Request! Please note that the estimated time for the request to be resolved is 14-21 days from the time of the request.
+  - type: textarea
+    attributes:
+      description: 'Please note we are still pending nomination of initial Build Interest Group members per https://github.com/opensearch-project/.github/issues/304. As a result, requests for new GitHub Repo may experience delays.'
+      label: 'Are you requesting a new GitHub Repo within [opensearch-project](https://github.com/opensearch-project) GitHub Organization? If not, please provide the URL of your current GitHub Repo.'
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      description: 'Please describe the publication target(s) your repo plans to use. If you do not have an existing GitHub Repo, note that it must first be approved by the TSC following the steps outlined in the rest of the issue template before we can assist with adding new publication targets.'
+      label: 'What is the publication target(s)?'
+      multiple: true
+      options:
+        - # Empty first option to force selection.
+        - DockerHub Staging
+        - DockerHub Production
+        - ECR Staging
+        - ECR Production
+        - Maven Snapshots / Sonatype Nexus
+        - Maven Central
+        - NPM
+        - RubyGems
+        - PyPI
+        - GO Pkg
+        - NuGet
+        - PHP Packagist
+        - Rust Crates
+        - Terraform Provider
+        - HuggingFace
+        - Others
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      description: |
+        1. Review the OpenSearch Software Foundation [Charter](https://foundation.opensearch.org/assets/media/OpenSearch%20Project%20Technical%20Charter%20Final%209-13-2024.docx.pdf)
+        2. Open a proposal issue with this [template](https://github.com/opensearch-project/.github/issues/new?template=PROPOSAL_TEMPLATE.md), see [examples](https://github.com/opensearch-project/.github/issues?q=is%3Aissue%20state%3Aopen%20%5BPROPOSAL%5D)
+        3. Attach the proposal issue link here
+      label: 'Proposal Submission'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      description: 'Provide reasons for your request. For example, if you request to add a new maintainer to a repository, confirm that you have followed the steps in the [Becoming a Maintainer](https://github.com/opensearch-project/.github/blob/main/RESPONSIBILITIES.md#becoming-a-maintainer) guide, and provide the required materials and votes.'
+      label: 'Additional information to support your request'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      description: 'Provide the timeline of your request. Requests typically require 7-10 business days to process. Specify your request timeline and whether or not it is an urgent request.'
+      label: 'When does this request need to be completed?'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 'Notes'
+      value: |
+        Track the progress of your request here: https://github.com/orgs/opensearch-project/projects/208/views/33.
+        Member of @opensearch-project/admin will take a look at the request soon.
+        Thanks!
